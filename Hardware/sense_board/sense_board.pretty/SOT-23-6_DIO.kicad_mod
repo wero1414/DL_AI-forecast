@@ -1,0 +1,183 @@
+(footprint "SOT-23-6_DIO"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "AP3602AKTR-G1 ")
+	(property "Reference" "U3"
+		(at 0.03155 1.999999 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5794309a-5959-48d1-81d1-99173daac9ec")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "AP3602AKTR-G1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe7f03d7-b74d-43ce-a5d1-62db4cfc59d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f93e89c-aa23-46b4-ada7-29316e7ce5c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaba8a0c-37d8-48b7-8283-452e0c940a41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0881770a-7235-4624-a8c8-5b4828722dd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufactura" "Mouser"
+		(at 267.2831 149.999998 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35fb9134-023e-4197-bae9-8ca6fd1149ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manf#" "AP3602AKTR-G1"
+		(at 267.2831 149.999998 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c79b621b-a661-4458-b7f0-2974c4d989be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -1.25)
+		(end 0.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc5f5315-1eb8-4b44-a4a3-17d3576476f3")
+	)
+	(fp_line
+		(start 0.75 1.25)
+		(end -0.8 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f8790942-8b49-4e1f-aca3-9ef8303bd637")
+	)
+	(fp_circle
+		(center -0.6 -0.95)
+		(end -0.6 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "90002b11-0f9e-4b9c-862c-f9b7abae5429")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c5bb370-7566-426c-8d18-e6f6ff0d6688")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.28905 -0.950001)
+		(size 1.0795 0.4572)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b88e859c-24ee-4fd5-8b3c-17549fcccd1f")
+	)
+	(pad "2" smd rect
+		(at -1.28905 0)
+		(size 1.0795 0.4572)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3c1cac94-f3e3-4fe8-ba1b-74afc091b329")
+	)
+	(pad "3" smd rect
+		(at -1.28905 0.950001)
+		(size 1.0795 0.4572)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d6af27f-87f8-4f89-b3b2-008462ca09b8")
+	)
+	(pad "4" smd rect
+		(at 1.28905 0.950001)
+		(size 1.0795 0.4572)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "42e5b6ee-f20d-40e8-ad3d-9441ba0a6289")
+	)
+	(pad "5" smd rect
+		(at 1.28905 0)
+		(size 1.0795 0.4572)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e688c011-0ce2-40eb-abf4-95f55ad471cb")
+	)
+	(pad "6" smd rect
+		(at 1.28905 -0.950001)
+		(size 1.0795 0.4572)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "54156cce-7701-489f-8ee1-54fd208cd536")
+	)
+	(model "C:/Users/Diego/Downloads/Nueva carpeta/sot-23-6-sdb628-1.snapshot.1/SOT-23-6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
